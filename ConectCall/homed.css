@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+    font-weight: 400;
+}
+body{
+   background-color: #ABD4D6; 
+}
+header{
+ /*    border: solid 2px black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.logo h1{
+    font-size: 35px;
+}
+
+.navegacao{
+    /* border: solid 2px red; */
+    display: flex;
+    width: 600px;
+    justify-content: space-between;
+}
+
+.navegacao nav{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navegacao nav a{
+color: #14274A;
+text-decoration: none;
+font-size: 20px;
+}
+
+.navegacao button{
+    width: 130px;
+    background-color: #14274A;
+    color: white;
+    padding: 5px;
+    border: 0;
+    border-radius: 5px;
+    font-size: 20px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+}
+.sessao1{
+    /* border: solid 2px greenyellow; */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+
+}
+.sessao1 article{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: solid 2px orange; */
+    gap: 30px;
+}
+.sessao1 article h2{
+    font-size: 40px;
+    text-align: center;
+    font-weight:500;
+    
+}
+.sessao1 article p{
+    font-size:25px;
+}
+.imagemprincipal{
+    /* border: solid 2px blue; */
+    width: 50%;
+    display: flex;
+    justify-content:center;
+    
+}
+.imagemprincipal img{
+    width: 80%;
+    height: 400px; 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5), 
+              0px 2px 4px rgba(0, 0, 0, 0.09);
+}
+.sessao2{
+    background-color: white;
+    margin-top: 120px;
+    padding: 30px;
+}
+.sessao2 h2{
+    font-size:45px;
+    text-align: center;
+    font-weight: 500;
+}
+.sessao2 article{
+    display: flex;
+    margin-top: 45px;
+    justify-content: space-between;
+    gap: 30px;
+
+}
+.sessao2 article .card{
+    background-color: #10969D;
+    width: 33%;
+    border-radius: 15px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color:white;
+    padding: 20px;
+}
+.card h3{
+    font-size: 35px;
+    text-align: center;
+    font-weight: 500;
+    text-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3), 
+    0px 2px 4px rgba(0, 0, 0, 0.05);
+    margin-bottom: 10px;
+}
+.card p{
+    font-size: 24px;
+    
+}
+.card p strong{
+    font-weight: bold;
+}
+footer{
+    background-color: #1B2731;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 60px;
+}
+.infofooter{
+    width: 40%;
+    gap: 20px;
+
+}
+.infofooter p {
+    margin-top: 30px;
+}
+.infofooter nav{
+ display: flex;
+ flex-direction: column;
+ gap: 30px;
+ margin-top: 30px;
+}
+.infofooter nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+.infofooter h3{
+    font-size: 30px;
+}
+
